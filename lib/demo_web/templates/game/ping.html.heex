@@ -1,0 +1,7 @@
+<h1>Ping</h1>
+
+<p><%= link "Link 1 - Pong!", to: Routes.game_path(@conn, :pong) %></p>
+
+<p><%= link("Link 2 - Pong!", to: "/pong", class: "alert-info") %></p>
+
+<p><%= link "Link 3 - Pong!", to: Routes.game_path(@conn, :pong), class: "alert-danger" %></p>
